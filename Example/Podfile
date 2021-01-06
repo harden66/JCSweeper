@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JCSweeper_Example' do
+  pod 'JCSweeper', :path => '../'
+
+  target 'JCSweeper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
